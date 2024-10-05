@@ -1,0 +1,43 @@
+<head></head>
+    <style>
+      .child{
+        width: 100px;
+        height: 100px;
+      }
+      #c1{
+        background-color: rgba(185, 100, 107, 0);
+      }
+      #c2{
+        background-color: rgb(71, 170, 195);
+      }
+      #c3{
+        background-color: rgb(20, 180, 216);
+      }
+      #c4{
+        background-color: rgb(0, 255, 213);
+      }
+      
+      .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns */
+            grid-gap: 5px; /* Add spacing between grid items */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div id="c1" class="child">Child1</div>
+    <div id="c2" class="child">Child2</div>
+    <div id="c3" class="child">Child3</div>
+    <div id="c4" class="child">Child4</div>
+    <div id="c1" class="child">Child1</div>
+    <div id="c2" class="child">Child2</div>
+    <div id="c3" class="child">Child3</div>
+    <div id="c4" class="child">Child4</div>
+    <div id="c1" class="child">Child1</div>
+    <div id="c2" class="child">Child2</div>
+    <div id="c3" class="child">Child3</div>
+    <div id="c4" class="child">Child4</div>
+    </div>
+</body>
+</html>
